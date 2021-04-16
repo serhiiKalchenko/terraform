@@ -1,6 +1,3 @@
-
-
-# Installing Jenkins server with Java, Maven and Docker
 provider "aws" {
   region = var.aws_region
 }
