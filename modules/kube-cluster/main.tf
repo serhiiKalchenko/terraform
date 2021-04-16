@@ -1,4 +1,4 @@
-# Instances for Kubernetes cluster
+# Instances for Kubernetes cluster in a default VPC
 
 provider "aws" {
   region = var.aws_region
