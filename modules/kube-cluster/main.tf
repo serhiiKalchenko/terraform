@@ -1,12 +1,4 @@
-# Instance for Kubernetes cluster
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.35"
-    }
-  }
-}
+# Instances for Kubernetes cluster
 
 provider "aws" {
   region = var.aws_region
