@@ -99,8 +99,6 @@ resource "aws_instance" "kube_control" {
   }
 }
 
-
-
 resource "aws_instance" "kube_worker" {
   count                  = var.worker_nodes_num
   ami                    = data.aws_ami.ubuntu.id
